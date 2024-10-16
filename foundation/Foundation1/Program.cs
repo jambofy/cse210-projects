@@ -65,10 +65,15 @@ class Program
         Video video1 = new Video("Introduction to C#", "Nyasha Ushewokunze", 300);
         video1.AddComment(new Comment("User1", "Great video!"));
         video1.AddComment(new Comment("User2", "Very informative."));
-        
-        Video video2 = new Video("Advanced C# Techniques", "Lee Timly", 450);
-        video2.AddComment(new Comment("User3", "Learned a lot from this."));
-        video2.AddComment(new Comment("User4", "Looking forward to more videos!"));
+        video1.AddComment(new Comment("User3", "Great video, just loved it!"));
+        video1.AddComment(new Comment("User4", "worst video! i wish l had not clicked on it"));
+
+
+        Video video2 = new Video("Advanced C# Techniques", "Lee Timely", 450);
+        video2.AddComment(new Comment("User1", "Learned a lot from this."));
+        video2.AddComment(new Comment("User2", "Looking forward to more videos!"));
+        video2.AddComment(new Comment("User3", "when is are more videos coming up!"));
+        video2.AddComment(new Comment("User4", "Looking forward to more tutorials!"));
         
         // List of videos
         List<Video> videos = new List<Video> { video1, video2 };
