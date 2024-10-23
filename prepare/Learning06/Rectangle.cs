@@ -12,7 +12,7 @@ public class Rectangle : Shape
         _width = width;
     }
 
-    // Override the GetArea method to calculate the area of a rectangle
+    // Overriding the GetArea method to calculate the area of a rectangle
     public override double GetArea()
     {
         return _length * _width;

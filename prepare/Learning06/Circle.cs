@@ -12,7 +12,7 @@ public class Circle : Shape
         _radius = radius;
     }
 
-    // Override the GetArea method to calculate the area of a circle
+    // Overriding the GetArea method to calculate the area of a circle
     public override double GetArea()
     {
         return Math.PI * _radius * _radius;
