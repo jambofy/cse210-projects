@@ -108,6 +108,7 @@ class Program
             Console.WriteLine();
             Console.WriteLine(activity.GetSummary());
             Console.WriteLine();
+          
         }
     }
 }
